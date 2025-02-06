@@ -1,0 +1,9 @@
+/*div>p{
+    color: red;
+}
+section p{
+    color: blue;
+}*/
+div>h1, p{
+    color: aqua;
+}

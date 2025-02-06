@@ -1,0 +1,10 @@
+#titlu{
+    width: 600px;
+    margin: auto;
+    border-bottom: 2px red solid;
+}
+.text{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

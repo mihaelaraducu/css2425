@@ -1,0 +1,23 @@
+body {
+    margin: 20px;
+}
+
+.outer-div {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.inner-div {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.outer-div p {
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.inner-div p {
+    border: 1px solid red;
+    padding: 5px;
+}
