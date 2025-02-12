@@ -1,0 +1,16 @@
+a:hover{
+    text-decoration: none;
+}
+
+.column img{
+    display: block;
+}
+
+/*Sepia*/
+.column#sepia img{
+    filter: sepia(100%);
+    transition: .3s ease-in;
+}
+.column#sepia:hover img{
+    filter: sepia(0);
+}

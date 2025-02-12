@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ap6.css">
+</head>
+<body>
+    <div style="position: relative; width: 640px; height: 320px; margin: 15px auto; overflow: hidden; ">
+
+        <ul class="slider">
+            <li>
+                <img src="./img/dancing-dave-minion-510835_640.jpg" alt="1"/>
+            </li>
+            <li>
+                <img src="./img/minion-3646892_640.jpg" alt="2"/>
+            </li>
+            <li>
+                <img src="./img/HD-wallpaper-640x480px-cartoons-friends-minions.jpg" alt="3"/>
+            </li>
+            <li>
+                <img src="./img/minions-2095845_640.jpg" alt="3"/>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const images = document.getElementsByTagName('img');
+        const slider = document.querySelector('.slider');
+
+        console.log("images :>>", images);
+        for(let i = 0; i <images.length; i++){
+            images[i].addEventListener('mouseover', function(eveniment){
+                // slider.style.animation = 'none';
+                //
+            });
+        }
+    </script>
+</body>
+</html>
