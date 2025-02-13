@@ -21,18 +21,18 @@
     content: "";
     left: 50px;
     top: 0;
-    width: 300px;
+    width: 400px;
     height: 500px;
     background: red;
     border-radius: 50% 50% 0 0;
     transform: rotate(-45deg);
-    transform-origin: 0 100%;
+    transform-origin: 0 50%;
     animation: pulsecolor 1s infinite;
 }
 #heart:after{
     left: 0;
     transform: rotate(45deg);
-    transform-origin: 0 100%;
+    transform-origin: 100% 0%;
 }
 @keyframes pulse{
     10% {transform: scale(1.2);}

@@ -1,0 +1,14 @@
+html, body{
+    width: 100%;
+    font-size: 18px;
+}
+
+#p1{
+    font-size: 2rem;/*2 * 18*/
+}
+div{
+    font-size: 12px;
+}
+#p2{
+    font-size: 2em;
+}
