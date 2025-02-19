@@ -1,0 +1,29 @@
+body{
+    margin: 40 auto;
+    width: 100%;
+    max-width: 1000px;
+    font-size: 18px;
+}
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+}
+.box{
+    background-color: rgba(127, 255, 212, 0.879);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.5rem;
+    order: 1;
+}
+.box:nth-child(2n){
+    background-color: rgba(255, 228, 196, 0.918);
+    color: black;
+}
+.box1{
+    order: 3;
+}
